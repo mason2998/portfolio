@@ -1,0 +1,46 @@
+.home-page {
+  .home-text {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    max-height: 90%;
+  }
+
+  .home-intro {
+    &:before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore';
+      color: #7fcd91;
+      font-size: 20px;
+      position: absolute;
+    }
+
+    &:after {
+      content: '</h1>';
+      font-family: 'La Belle Aurore';
+      color: #7fcd91;
+      font-size: 20px;
+      position: absolute;
+      bottom: 60px;
+    }
+
+    h1 {
+      font-size: 53px;
+      margin: 0;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+
+      .name-text {
+        display: inline;
+      }
+    }
+  }
+  h2 {
+    font-family: 'Trebuchet MS';
+    letter-spacing: 2px;
+    font-weight: 200;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+}
