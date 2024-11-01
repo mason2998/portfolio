@@ -50,13 +50,17 @@ const Home = () => {
               idx={15}
             />
             <br />
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={jobArray}
-              idx={20}
-            />
+            <span className="job">
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={jobArray}
+                idx={20}
+              />
+            </span>
           </h1>
+
           <h2>.NET Expert / Application Support / Enterprise Applications</h2>
+          <br />
           <Link to="/contact" className="contact-button">
             CONTACT ME
           </Link>

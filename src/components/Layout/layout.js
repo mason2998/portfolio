@@ -8,7 +8,6 @@ const Layout = () => {
     <div className="App">
       <Navbar />
       <div className="main-content">
-        <h1>Welcome to my portfolio site!</h1>
         <Outlet />
         <Cube />
       </div>
