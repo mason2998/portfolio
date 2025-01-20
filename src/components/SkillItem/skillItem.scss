@@ -1,0 +1,32 @@
+.skill-tab {
+  background-color: #4d4d4e;
+  border-radius: 4px;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  line-height: 1;
+}
+
+.skill-label {
+  font-size: 25px;
+  padding-left: 10px;
+  margin: 0;
+  padding-top: 7px;
+}
+
+.skill-button {
+  font-size: 50px;
+  padding-right: 10px;
+  margin: 0;
+}
+
+.skill-text {
+  margin: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 13px;
+}

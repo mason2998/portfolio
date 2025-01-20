@@ -26,20 +26,11 @@ const About = () => {
         <p className="about-para">
           Thanks for visiting my site! I hope you like it, I made this site
           originally to learn react and decided to turn it into a portfolio
-          site. Below you can find some more information about me. If you're a
-          potential employer (thanks to you especially for visiting) and you are
-          looking for specific skills, you can find that on the nav-bar to the
-          left.
+          site. Below you can find some more information about me. If you're
+          looking for specific skills, you can find them on the skills page on
+          the navbar above!
         </p>
         <br />
-        <h2>Hobbies and Interests</h2>
-        <p className="about-para">
-          My hobbies and intersts can be summed up in four points: Food,
-          Science, Gym and Music. I love anything to do with either of them.
-          Whether it's, cooking something new or pushing myself in the gym. I've
-          been going to gym consistently since 2017 (despite me sometimes not
-          looking like it) and have been into cooking since univeristy.
-        </p>
         <h2>Work experience</h2>
         <p className="about-para">
           For the past 3 years I've been working at Unisys, as part of a client
@@ -56,6 +47,17 @@ const About = () => {
           whole software delivery lifecycle. Outside of the day-to-day I also
           co-manage a training group for the company, focussing on upskilling
           people in ePortal, .NET and live support.
+        </p>
+        <br />
+        <h2>Hobbies and Interests</h2>
+        <p className="about-para">
+          <ul className="list">
+            <li className="list-object">- Gym</li>
+            <li className="list-object">- Cooking</li>
+            <li className="list-object">- Hiking</li>
+            <li className="list-object">- Mountain Biking</li>
+            <li className="list-object">- Gaming</li>
+          </ul>
         </p>
       </div>
     </div>

@@ -1,5 +1,21 @@
 .about-page {
   .about-para {
-    font-size: 13px;
+    font-size: 15px;
+    margin-bottom: 0;
   }
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.list {
+  display: inline;
+  padding: 0;
+}
+.list-object {
+  display: inline-block;
+  margin-left: 15px;
+  color: #7fcd91;
+  font-weight: bold;
 }
