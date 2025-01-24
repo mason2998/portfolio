@@ -7,8 +7,10 @@ const Layout = () => {
   return (
     <div className="App">
       <Navbar />
-      <div className="main-content">
-        <Outlet />
+      <div className="content-container">
+        <div className="main-content">
+          <Outlet />
+        </div>
         <Cube />
       </div>
     </div>

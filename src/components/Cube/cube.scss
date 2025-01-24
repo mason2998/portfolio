@@ -2,13 +2,9 @@
   width: 200px;
   height: 200px;
   perspective: 800px;
-  margin: 10% 17%;
+  margin-left: 50%;
   animation: bounceIn 1s 1s;
   animation-fill-mode: both;
-  position: fixed;
-  top: 50%;
-  margin-top: -100px;
-  left: 55%;
 }
 
 .cube {
@@ -25,6 +21,9 @@
   height: 200px;
   border-radius: 10px;
   opacity: 40%;
+  @media (max-width: 930px) {
+    opacity: 10%;
+  }
 }
 
 .face.front {

@@ -1,8 +1,27 @@
-.main-content {
-  width: 70%;
-  height: 100%;
-  position: absolute;
-  margin-left: 30%;
+.content-container {
+  display: flex; /* Enables Flexbox */
+  flex-direction: row;
+  justify-content: center; /* Centers items vertically */
+  align-items: center; /* Centers items horizontally */
+  height: 100vh;
+}
+
+@media (min-width: 930px) {
+  .main-content {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 930px) {
+  .main-content {
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    margin-left: 10%;
+  }
 }
 
 .container {
@@ -36,6 +55,12 @@ h1 {
   left: 0%;
   top: 50%;
   transform: translateY(-50%);
-  width: 60%;
+  @media (min-width: 930px) {
+    width: 60%;
+  }
+  @media (max-width: 930px) {
+    width: 90%;
+  }
+
   max-height: 90%;
 }
