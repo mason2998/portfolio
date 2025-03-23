@@ -46,7 +46,7 @@ const Skills = () => {
         />
         <SkillItem
           skillName="Other Programming Languages"
-          skillText="A list of all programming languages I have experience with included: C#, COBOL, Python, Powershell, JavaScript/React, HTML/CSS, Fortran95, Unisys SSG, PHP and Java."
+          skillText="A list of all programming languages I have experience with include: C#, COBOL, Python, Powershell, JavaScript/React and HTML/CSS. Other languages I have also used in the past include: Fortran95, Unisys SSG, PHP and Java."
         />
       </div>
     </div>
