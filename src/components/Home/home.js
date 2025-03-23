@@ -59,7 +59,9 @@ const Home = () => {
             </span>
           </h1>
 
-          <h2>.NET Expert / Application Support / Enterprise Applications</h2>
+          <h2>
+            .NET Developer / Application Support / Enterprise Applications
+          </h2>
           <br />
           <Link to="/contact" className="contact-button">
             CONTACT ME

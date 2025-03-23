@@ -42,11 +42,11 @@ const About = () => {
           responsible for 24/7 support of a critical business application.
         </p>
         <p className="about-para">
-          I've got experience designing solutions, managing live incidents,
-          communicating with shareholders and have alot of experience with the
-          whole software delivery lifecycle. Outside of the day-to-day I also
-          co-manage a training group for the company, focussing on upskilling
-          people in ePortal, .NET and live support.
+          I've got experience developing solutions throughout the whole software
+          development lifecycle, managing live incidents and communicating with
+          shareholders. Outside of the day-to-day I also co-manage a training
+          group for the company, focussing on upskilling people in ePortal, .NET
+          and live support.
         </p>
         <br />
         <h2>Hobbies and Interests</h2>
