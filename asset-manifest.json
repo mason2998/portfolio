@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.afb43410.css",
-    "main.js": "/portfolio/static/js/main.e9d36f05.js",
+    "main.js": "/portfolio/static/js/main.faf3f70d.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/Gendy.otf": "/portfolio/static/media/Gendy.ffe5a1764469c964fa7c.otf",
     "static/media/logo-mh2.png": "/portfolio/static/media/logo-mh2.00eeedb05ba9363fc358.png",
@@ -11,11 +11,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/portfolio/index.html",
     "main.afb43410.css.map": "/portfolio/static/css/main.afb43410.css.map",
-    "main.e9d36f05.js.map": "/portfolio/static/js/main.e9d36f05.js.map",
+    "main.faf3f70d.js.map": "/portfolio/static/js/main.faf3f70d.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.afb43410.css",
-    "static/js/main.e9d36f05.js"
+    "static/js/main.faf3f70d.js"
   ]
 }
